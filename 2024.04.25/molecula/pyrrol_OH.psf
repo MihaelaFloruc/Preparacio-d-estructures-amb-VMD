@@ -1,0 +1,70 @@
+PSF
+
+      10 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS topology pyrrol_OH.top 
+ REMARKS topology top_all36_prot.rtf 
+ REMARKS topology top_all36_lipid.rtf 
+ REMARKS topology top_all36_na.rtf 
+ REMARKS topology top_all36_carb.rtf 
+ REMARKS topology top_all36_cgenff.rtf 
+ REMARKS topology toppar_all36_carb_glycopeptide.str 
+ REMARKS topology toppar_water_ions_namd.str 
+ REMARKS segment A { first NONE; last NONE; auto angles dihedrals }
+
+      11 !NATOM
+       1 A    1    PYR  N    N      0.000000       14.0070           0
+       2 A    1    PYR  C    C      0.000000       12.0110           0
+       3 A    1    PYR  C    C      0.000000       12.0110           0
+       4 A    1    PYR  C0   C      0.000000       12.0110           0
+       5 A    1    PYR  C1   C      0.000000       12.0110           0
+       6 A    1    PYR  H    H      0.000000        1.0080           0
+       7 A    1    PYR  O    O      0.000000       15.9990           0
+       8 A    1    PYR  H0   H      0.000000        1.0080           0
+       9 A    1    PYR  H1   H      0.000000        1.0080           0
+      10 A    1    PYR  HM14 H      0.000000        1.0080           0
+      11 A    1    PYR  H2   H      0.000000        1.0080           0
+
+      10 !NBOND: bonds
+       1       3       1       5       1      10       3       9
+       3       4       3       8       4       7       4       5
+       5       6       7      11
+
+      16 !NTHETA: angles
+       1       5       6       1       5       4       1       3       8
+       1       3       4       1       3       9       3       4       5
+       3       4       7       3       1      10       3       1       5
+       4       7      11       4       5       6       4       3       8
+       5       1      10       7       4       5       9       3       8
+       9       3       4
+
+      22 !NPHI: dihedrals
+       1       5       4       7       1       5       4       3
+       1       3       4       5       1       3       4       7
+       3       4       5       6       3       4       7      11
+       3       1       5       6       3       1       5       4
+       4       5       1      10       4       3       1      10
+       4       3       1       5       5       4       7      11
+       5       4       3       8       5       4       3       9
+       5       1       3       8       5       1       3       9
+       6       5       4       7       6       5       1      10
+       7       4       3       8       7       4       3       9
+       8       3       1      10       9       3       1      10
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0
+
+       1       0 !NGRP
+       0       0       0
+

@@ -1,0 +1,3 @@
+Material Quartz-alpha
+Tamany de box. x:5, y=2, z=4
+i als bonds no he ficat periodicitat en B

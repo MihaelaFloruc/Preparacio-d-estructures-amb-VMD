@@ -1,0 +1,1 @@
+nanotube building options=5,2,7
